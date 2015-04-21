@@ -1,0 +1,110 @@
+body {
+    padding: 20px;
+    background-color: #fff;
+}
+
+
+
+.nav-collapse.collapse {
+    height: auto \9 !important;
+    overflow: visible \9 !important;
+}
+
+.navbar, 
+.navbar-inner, 
+.nav,
+.navbar-inverse {
+	background: none !important;
+	filter: none !important;
+	border: none;
+	-webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+	padding: 0px;
+	margin: 0;
+}
+
+.navbar-inner {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.navbar .nav > li > a {
+	color: #666;
+	border-top:4px solid transparent;
+	text-shadow: none;
+	font-size: 16px;
+	padding: 28px 20px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+	border-top:4px solid #f16529 !important;	
+  	background: #f16529 !important;		
+  	color: #fff;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:focus {
+  	color: #f16529 !important;	
+  	text-decoration: none;
+	border-top:4px solid #f16529 !important;	
+  	background-color: transparent !important;	
+  	-webkit-box-shadow: none;
+       -moz-box-shadow: none;
+          	box-shadow: none;
+}
+
+.navbar .nav > .active > a:hover {
+	border-top:4px solid #f16529 !important;	
+  	background: #f16529 !important;		
+  	color: #fff !important;
+  	-webkit-box-shadow: none;
+       -moz-box-shadow: none;
+          	box-shadow: none;
+}
+
+.navbar .nav .active a:hover > .caret {
+  border-top-color: #fff !important;	
+  border-bottom-color: #fff !important;	
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #ffffff;
+  background: #f16529 !important;	
+}
+
+.dropdown-menu .active > a {
+	color: #ffffff !important;
+  	background: #f16529 !important;
+}
+.dropdown-menu .active > a:hover {
+  	color: #ffffff !important;
+  	background: #f16529 !important;	
+}
+
+.navbar .btn-navbar {
+	margin-top: 25px;
+}
+
+.nav .active .dropdown-toggle .caret {
+  border-top-color: #f16529 !important;	
+  border-bottom-color: #f16529 !important;	
+}
+
+.slider-wrapper {
+	position: relative;
+	margin-top: -90px;
+	z-index: 1;
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.35);
+	   -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.35);
+		    box-shadow: 0px 1px 1px rgba(0,0,0,.35);
+}

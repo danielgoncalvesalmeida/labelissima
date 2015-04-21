@@ -1,0 +1,63 @@
+/*
+*   Copyright 2014 - Daniel Goncalves
+*
+*   Styles for login screens (normal and keypad)
+*/
+
+/*
+*   Traditional screen
+*/
+.form-signin {
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+
+/*
+*    Keypad screen
+*/
+
+.keypad_wrapper { margin-bottom: 15px; height: 270px }
+
+#pwd_caption { font-size: 20px;line-height: 15px; }
+
+ul.keypad {
+    width:250px;
+    padding-left: 24px;
+}
+ul.keypad li { 
+    cursor: hand;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    float: left;
+    font-size: 20px;
+    height: 50px;
+    list-style: none outside none;
+    margin-left: 11px;
+    margin-top: 11px;
+    padding-left: 0;
+    padding-top: 9px;
+    width: 50px;
+}
+ul.keypad li.no_key_button { border: none; }
+
+.bttouched { background-color: #BCE8F1; border-color: #285E8E; }
